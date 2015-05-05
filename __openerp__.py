@@ -1,22 +1,21 @@
 # -*- encoding: utf-8 -*-
 {
-    "name": "Customer product info",
+    "name": "Donation Extension",
     "version": "1.0",
     "author": "Business Tec Systems",
-    "category": "Sales",
+    "category": "Accounting & Finance",
     "description": """
-Adds several product information relavant to a cleint. Based on idea in Vauxoo Product Customer Code
+Odoo module extending functionality of OCA Donation by adding notes, document numbering and qweb report with donation confimation letter
      """,
     "website": "http://www.businesstec.net/",
     "license": "AGPL-3",
     "depends": [
-        "base",
-        "product",
-        "sale"
+        "report",
+        "donation"
     ],
     "demo": [],
     "data": [
-        "customer_product_info_view.xml"
+        "donation_view.xml"
     ],
     #"test": [], 
     #"js": [], 
